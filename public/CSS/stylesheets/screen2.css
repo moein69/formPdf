@@ -1,0 +1,206 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen2.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: IranSans !important;
+}
+/* line 14, ../sass/screen2.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 19, ../sass/screen2.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 22, ../sass/screen2.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 25, ../sass/screen2.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 26, ../sass/screen2.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+/* line 29, ../sass/screen2.scss */
+body h1 {
+  font-size: 20px;
+}
+/* line 30, ../sass/screen2.scss */
+body h2 {
+  font-size: 18px;
+}
+/* line 31, ../sass/screen2.scss */
+body h3 {
+  font-size: 16px;
+}
+/* line 32, ../sass/screen2.scss */
+body h4 {
+  font-size: 15px;
+}
+/* line 33, ../sass/screen2.scss */
+body h5 {
+  font-size: 14px;
+}
+/* line 34, ../sass/screen2.scss */
+body h6 {
+  font-size: 13px;
+}
+
+/* line 38, ../sass/screen2.scss */
+.container {
+  width: 75%;
+  height: 500px;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* line 49, ../sass/screen2.scss */
+.notification {
+  display: block;
+  width: 75%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  border-radius: 10px;
+  line-height: 40px;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+/* line 75, ../sass/screen2.scss */
+.table-container {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px dashed #b9b9b9;
+  height: 350px;
+  display: block;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  direction: rtl;
+}
+/* line 88, ../sass/screen2.scss */
+.table-container .right {
+  width: 25%;
+  height: 350px;
+  float: right;
+  border-radius: 15px;
+  border-left: 2px dashed #b9b9b9;
+}
+/* line 95, ../sass/screen2.scss */
+.table-container .right .mobile-number {
+  height: 75px;
+  display: block;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 90%;
+  text-align: center;
+  margin: 5px auto;
+  margin-top: 95px;
+}
+/* line 107, ../sass/screen2.scss */
+.table-container .right .id-number {
+  height: 75px;
+  display: block;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 90%;
+  text-align: center;
+  margin: 5px auto;
+}
+/* line 120, ../sass/screen2.scss */
+.table-container .left {
+  width: 74%;
+  height: 350px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-right: 2px dashed #b9b9b9;
+}
+/* line 128, ../sass/screen2.scss */
+.table-container .left .info {
+  display: block;
+  height: 300px;
+  float: right;
+  position: relative;
+}
+/* line 135, ../sass/screen2.scss */
+.table-container .left .info .info-text {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* line 140, ../sass/screen2.scss */
+.table-container .left .info .logo {
+  position: absolute;
+  margin: 0 auto;
+  top: 70px;
+  width: 100%;
+  text-align: center;
+}
+/* line 148, ../sass/screen2.scss */
+.table-container .left .info .logo img {
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+}
+/* line 156, ../sass/screen2.scss */
+.table-container .left .info .greeting {
+  padding: 20px;
+  height: 100px;
+}
+/* line 161, ../sass/screen2.scss */
+.table-container .left .info .event-date {
+  padding: 20px;
+}
+/* line 176, ../sass/screen2.scss */
+.table-container .left .info .event-date * {
+  display: block;
+}
+/* line 182, ../sass/screen2.scss */
+.table-container .left .barcode {
+  width: 35%;
+  height: 300px;
+  border-top-left-radius: 15px;
+  float: left;
+}
+/* line 187, ../sass/screen2.scss */
+.table-container .left .barcode img {
+  width: 100%;
+  margin-top: 25px;
+}
+/* line 192, ../sass/screen2.scss */
+.table-container .left .writer {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  display: block;
+  border-bottom-left-radius: 15px;
+  float: right;
+}
+/* line 199, ../sass/screen2.scss */
+.table-container .left .writer span {
+  padding: 0 5px;
+  line-height: 50px;
+}

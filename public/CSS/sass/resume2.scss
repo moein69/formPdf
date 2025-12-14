@@ -1,0 +1,337 @@
+@import "compass";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+  //font-family: IranSans !important;
+  font-family: Calibri,"Times New Roman",Tahoma;
+
+  font-size: 14px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    line-height: 27.5px;
+  }
+  b,strong{
+    font-weight: bold;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+  ol,ul{list-style-position: inside}
+  ol,ul,dl,hr {
+    margin: 0;
+  }
+  //h1{font-size: 20px}
+  //h2{font-size: 18px}
+  //h3{font-size: 16px}
+  //h4{font-size: 15px}
+  //h5{font-size: 14px}
+  //h6{font-size: 13px}
+
+}
+
+.container {
+  width: 780px;
+  //height: 1100px;
+  height: auto;
+  background-color: #fff;
+  //background-color: #eeeeee;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom:25px;
+
+  section{
+    padding: 0 15px;
+  }
+
+  .section-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+  }
+
+  .personal-info{
+    padding: 10px 2%;
+
+    .logo{
+      position: absolute;
+      height: 85px;
+      top: 15px;
+      right: 15px;
+    }
+
+    .name{
+      font-size: 25px;
+      color: #0852a4;
+    }
+
+    .info-table{
+      text-align: left;
+      background-color: white;
+      border-bottom: 2px solid black;
+      padding-bottom: 15px;
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .description-info{
+
+    .description{
+      border-radius: 8px;
+      border: 1px solid gray;
+      background: #ffffff;
+      padding: 0 15px;
+
+      .description-title{
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+
+  }
+
+  .education-info{
+
+    .edu-table{
+      text-align: left;
+      background-color: white;
+
+      .edu-title{
+
+      }
+
+      .edu-date{
+        text-align: center;
+      }
+
+      .edu-uni{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+
+      .edu-dis{
+        font-weight: normal;
+        span{
+          font-weight: bold;
+        }
+      }
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  .publications-info{
+
+    .pub-summary{
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+
+    .pub-type{
+      font-size: 16px;
+      font-weight: bold;
+      font-style: italic;
+      margin: 0 auto;
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+
+    .pub-list{
+      counter-reset: item;
+      list-style: none;
+      padding-left: 20px;
+      li{
+        counter-increment: item;
+        padding: 5px 10px;
+
+        &:before{
+          content: counter(item);
+          font-weight: bold;
+          content:counter(item) ".";
+          padding-right:0.5em;
+          font-size: 16px;
+
+        }
+
+      }
+    }
+
+  }
+
+  .honors-info{
+
+    .honor-table{
+      text-align: left;
+      background-color: white;
+
+      .honor-title{
+
+      }
+
+      .honor-date{
+        text-align: center;
+      }
+
+      .honor-des{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  .academic-info{
+
+    .academic-table{
+      text-align: left;
+      background-color: white;
+
+      .academic-title{
+
+      }
+
+      .academic-date{
+        text-align: center;
+      }
+
+      .academic-uni{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  .course-info{
+
+    .course-table{
+      text-align: left;
+      background-color: white;
+
+      .course-title{
+
+      }
+
+      .course-date{
+        text-align: center;
+      }
+
+      .course-place{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  .lab-info{
+
+    .lab-table{
+      text-align: left;
+      background-color: white;
+
+      .lab-title{
+
+      }
+
+      .lab-date{
+        text-align: center;
+      }
+
+      .lab-place{
+        font-weight: normal;
+        font-style: italic;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+}
+

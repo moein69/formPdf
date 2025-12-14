@@ -1,0 +1,147 @@
+/* line 3, ../sass/test.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: IranSans !important;
+  font-size: 14px;
+}
+/* line 10, ../sass/test.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 15, ../sass/test.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 18, ../sass/test.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 21, ../sass/test.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 22, ../sass/test.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+
+/* line 34, ../sass/test.scss */
+.container {
+  height: auto;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 25px;
+}
+/* line 47, ../sass/test.scss */
+.container section {
+  padding: 0 15px;
+}
+/* line 51, ../sass/test.scss */
+.container .list-vertical {
+  padding: 5px 0;
+}
+/* line 55, ../sass/test.scss */
+.container .list-vertical .list-vertical-item {
+  background-color: skyblue;
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+/* line 62, ../sass/test.scss */
+.container .list-vertical .list-vertical-item a {
+  color: #333;
+  font-weight: bold;
+}
+/* line 71, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet form {
+  padding: 0 15px;
+}
+/* line 75, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description {
+  padding: 0 15px;
+}
+/* line 78, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description .cv-title {
+  color: #333333;
+  font-weight: bold;
+}
+/* line 83, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description ul {
+  padding: 0 20px;
+}
+/* line 86, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description ul li {
+  border-radius: 8px;
+  padding: 0 5px;
+}
+/* line 91, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description ul li .dsc-headlines {
+  color: #333333;
+  line-height: 30px;
+}
+/* line 96, ../sass/test.scss */
+.container #portlet_eduteacherdisplay_WAR_edumanagerportlet .content-description ul li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 109, ../sass/test.scss */
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+/* line 113, ../sass/test.scss */
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+/* line 119, ../sass/test.scss */
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+/* line 125, ../sass/test.scss */
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+/* line 134, ../sass/test.scss */
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/* line 141, ../sass/test.scss */
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 500px;
+}
+
+/* line 149, ../sass/test.scss */
+.item:nth-child(1) {
+  background: #74C390;
+}
+
+/* line 153, ../sass/test.scss */
+.item:nth-child(2) {
+  background: #51BCE8;
+}
+
+/* line 157, ../sass/test.scss */
+.item:nth-child(3) {
+  background: #E46653;
+}

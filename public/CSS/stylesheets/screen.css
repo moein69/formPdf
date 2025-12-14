@@ -1,0 +1,186 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: IranSans !important;
+}
+/* line 14, ../sass/screen.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 19, ../sass/screen.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 22, ../sass/screen.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 25, ../sass/screen.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 26, ../sass/screen.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+/* line 29, ../sass/screen.scss */
+body h1 {
+  font-size: 20px;
+}
+/* line 30, ../sass/screen.scss */
+body h2 {
+  font-size: 18px;
+}
+/* line 31, ../sass/screen.scss */
+body h3 {
+  font-size: 16px;
+}
+/* line 32, ../sass/screen.scss */
+body h4 {
+  font-size: 15px;
+}
+/* line 33, ../sass/screen.scss */
+body h5 {
+  font-size: 14px;
+}
+/* line 34, ../sass/screen.scss */
+body h6 {
+  font-size: 13px;
+}
+
+/* line 38, ../sass/screen.scss */
+.container {
+  width: 75%;
+  height: 500px;
+  background-color: #0054b1;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* line 49, ../sass/screen.scss */
+.notification {
+  display: block;
+  width: 75%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  border-radius: 10px;
+  line-height: 40px;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+/* line 75, ../sass/screen.scss */
+.table-container {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px dashed #b9b9b9;
+  height: 350px;
+  display: block;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  direction: rtl;
+}
+/* line 88, ../sass/screen.scss */
+.table-container .right {
+  width: 25%;
+  height: 350px;
+  float: right;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* line 94, ../sass/screen.scss */
+.table-container .right .mobile-number {
+  height: 75px;
+  display: block;
+  padding: 0 10px;
+  border: 1px solid;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+}
+/* line 102, ../sass/screen.scss */
+.table-container .right .id-number {
+  height: 75px;
+  display: block;
+  padding: 0 10px;
+  border-radius: 0;
+  border: 1px solid;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 15px;
+}
+/* line 113, ../sass/screen.scss */
+.table-container .left {
+  width: 75%;
+  height: 350px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  float: left;
+}
+/* line 119, ../sass/screen.scss */
+.table-container .left .info {
+  width: 65%;
+  height: 300px;
+  float: right;
+}
+/* line 123, ../sass/screen.scss */
+.table-container .left .info .info-text {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* line 127, ../sass/screen.scss */
+.table-container .left .info .logo {
+  margin: 0 auto;
+  background-image: url("../image/logo.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+}
+/* line 138, ../sass/screen.scss */
+.table-container .left .barcode {
+  width: 35%;
+  height: 300px;
+  border-top-left-radius: 15px;
+  float: left;
+}
+/* line 143, ../sass/screen.scss */
+.table-container .left .barcode img {
+  width: 100%;
+  margin-top: 25px;
+}
+/* line 148, ../sass/screen.scss */
+.table-container .left .writer {
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  display: block;
+  border-bottom-left-radius: 15px;
+  float: right;
+}
+/* line 155, ../sass/screen.scss */
+.table-container .left .writer span {
+  padding: 0 5px;
+  line-height: 50px;
+}

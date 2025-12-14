@@ -1,0 +1,898 @@
+// @import "compass";
+
+
+
+/*--------------------------------------------------------------
+# Reset Codes
+--------------------------------------------------------------*/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: IranSans !important;
+  font-size: 12px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    line-height: 27.5px;
+  }
+  b,strong{
+    font-weight: bold;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+  ol,ul{list-style-position: inside}
+  ol,ul,dl,hr {
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6{margin: 5px auto; font-weight: bold}
+  h1{font-size: 20px}
+  h2{font-size: 18px}
+  h3{font-size: 16px}
+  h4{font-size: 14px}
+  h5{font-size: 12px}
+  h6{font-size: 11px}
+}
+
+/*--------------------------------------------------------------
+# Size of the page
+--------------------------------------------------------------*/
+.container {
+  //width: 595px;
+  width: 900px;
+  //height: 842px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 2px solid #333333;
+
+
+
+  /*--------------------------------------------------------------
+  # Header Section
+  --------------------------------------------------------------*/
+  .header{
+    border-bottom: 2px solid #333;
+    height: 95px;
+
+    .header-right{
+      //width: 150px;
+      width: 135px;
+      height: 95px;
+      float: right;
+
+      img{
+        height: 80px;
+        width: 120px;
+        text-align: center;
+        margin: 5px;
+      }
+    }
+
+    .header-center{
+      //width: 353px;
+      width: 640px;
+      height: 95px;
+      float: right;
+      text-align: center;
+      border-right: 2px solid #333;
+      border-left: 2px solid #333;
+    }
+
+    .header-left{
+      width: 120px;
+      height: 95px;
+      float: right;
+
+
+      img{
+        height: 80px;
+        margin-top: 5px;
+        text-align: center;
+      }
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Demografic section
+  --------------------------------------------------------------*/
+  .demografic {
+    border-bottom: 1px solid #333;
+    height: 40px;
+
+    >*{
+      border: 1px solid;
+      border-top: none;
+    }
+
+    >div {
+      height: 40px;
+    }
+
+    .name{
+      width: 200px;
+      float: right;
+    }
+
+    .family-name{
+      width: 195px;
+      float: right;
+    }
+
+    .father-name{
+      width: 200px;
+      float: right;
+    }
+
+    .age{
+      width: 150px;
+      float: right;
+    }
+
+    .sex{
+      width: 147px;
+      float: right;
+      border-left: none;
+    }
+
+    .field-title{
+
+      font-weight: bold;
+      font-size: 11px;
+
+      &.fa{
+        padding: 0 2px;
+        direction: rtl;
+        float: right;
+        text-align: right;
+        overflow: hidden;
+      }
+
+      &.en{
+        padding: 0 2px;
+        direction: ltr;
+        float: left;
+        text-align: left;
+        overflow: hidden;
+      }
+
+    }
+
+    .field-text{
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+
+      &.fa{
+        .field-title,
+        .field-text{
+          padding: 0 2px;
+          direction: rtl;
+          float: right;
+          text-align: right;
+          overflow: hidden;
+        }
+
+        .field-title{
+          font-weight: bold;
+        }
+
+      }
+
+      &.en{
+        .field-title,
+        .field-text{
+          padding: 0 2px;
+          direction: ltr;
+          float: left;
+          text-align: left;
+          overflow: hidden;
+        }
+
+        .field-title{
+          font-weight: bold;
+        }
+
+      }
+
+
+    }
+
+
+
+
+  /*--------------------------------------------------------------
+  # Detail Section
+  --------------------------------------------------------------*/
+  .detail {
+    border-bottom: 1px solid #333;
+    height: 38px;
+
+    >*{
+      border: 1px solid;
+      border-top: none;
+    }
+
+    .physician{
+      width: 200px;
+      float: right;
+    }
+
+    .unit-no{
+      width: 195px;
+      float: right;
+    }
+
+    .date-of-req{
+      width: 200px;
+      float: right;
+    }
+
+    .time-of-req{
+      width: 150px;
+      float: right;
+    }
+
+    .ward{
+      width: 147px;
+      float: right;
+      border-left: none;
+    }
+
+
+    .field-title{
+
+      font-weight: bold;
+      font-size: 11px;
+
+      &.fa{
+        padding: 0 2px;
+        direction: rtl;
+        float: right;
+        text-align: right;
+        overflow: hidden;
+      }
+
+      &.en{
+        padding: 0 2px;
+        direction: ltr;
+        float: left;
+        text-align: left;
+        overflow: hidden;
+      }
+
+    }
+
+    .field-text{
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    &.fa{
+      .field-title,
+      .field-text{
+        padding: 0 2px;
+        direction: rtl;
+        float: right;
+        text-align: right;
+        overflow: hidden;
+      }
+
+      .field-title{
+        font-weight: bold;
+      }
+    }
+
+    &.en{
+      .field-title,
+      .field-text{
+        padding: 0 2px;
+        direction: ltr;
+        float: left;
+        text-align: left;
+        overflow: hidden;
+      }
+
+      .field-title{
+        font-weight: bold;
+      }
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Subject Section
+  --------------------------------------------------------------*/
+  .subject{
+    // border-bottom: 1px solid #333;
+    height: 21px;
+
+    .subject-title{
+      padding: 0 2px;
+      font-weight: bold;
+
+      &.fa{
+        direction: rtl;
+        float: right;
+        text-align: right;
+      }
+
+      &.en{
+        direction: ltr;
+        float: left;
+        text-align: left;
+      }
+    }
+  }
+
+  .subject-text-area{
+    border-bottom: 1px solid #333;
+    height: 80px;
+    position: relative;
+
+    p{
+      direction: rtl;
+      padding: 5px;
+    }
+
+    .signature{
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+
+  }
+
+  .subject-text-area-two{
+    border-bottom: 1px solid #333;
+    height: 60px;
+    position: relative;
+
+    p{
+      direction: rtl;
+      padding: 0 5px;
+
+      .box-title{
+        padding: 0 2px;
+        font-weight: bold;
+      }
+
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Form Section
+  --------------------------------------------------------------*/
+
+  .form-subject{
+    // border-bottom: 1px solid #333;
+    height: 18px;
+
+    &.lab{
+      border-top: 1px solid #333;
+      margin: 0 auto;
+      .form-title{
+        padding: 0 2px;
+        font-weight: bold;
+  
+        &.fa{
+          direction: rtl;
+          float: right;
+          text-align: right;
+          position: relative;
+          right: 0px;
+        }
+  
+        &.en{
+          direction: ltr;
+          float: left;
+          text-align: left;
+          position: relative;
+          left: 0px;
+          .value{
+            position: relative;
+          }
+        }
+      }
+    }
+
+    &.paracilinic{
+      border-bottom: 1px solid #333;
+      border-top: 1px solid #333;
+      margin: 0 auto;
+
+      .form-title{
+        padding: 0 2px;
+        font-weight: bold;
+  
+        &.fa{
+          direction: rtl;
+          float: right;
+          text-align: right;
+          position: relative;
+          right: 15px;
+        }
+  
+        &.en{
+          direction: ltr;
+          float: left;
+          text-align: left;
+          position: relative;
+          left: 0px;
+          .value{
+            position: relative;
+          }
+        }
+      }
+    }
+
+    &.drug{
+      .form-title{
+        padding: 0 2px;
+        font-weight: bold;
+  
+        &.fa{
+          direction: rtl;
+          float: right;
+          text-align: right;
+          position: relative;
+          right: 15px;
+        }
+  
+        &.en{
+          direction: ltr;
+          float: left;
+          text-align: left;
+          position: absolute;
+          left: 0px;
+          .value{
+            position: relative;
+          }
+        }
+      }
+    }
+
+    .form-title{
+      padding: 0 2px;
+      font-weight: bold;
+
+      &.fa{
+        direction: rtl;
+        float: right;
+        text-align: right;
+        position: relative;
+        right: 15px;
+      }
+
+      &.en{
+        direction: ltr;
+        float: left;
+        text-align: left;
+        position: relative;
+        left: 15px;
+        .value{
+          position: relative;
+        }
+      }
+    }
+
+  }
+
+  .form{
+    border-bottom: 1px solid #333;
+    height: auto;
+    position: relative;
+
+    .items-list{
+      list-style-position: unset;
+      margin: 5px 0;
+
+      li{
+        padding: 1px 0;
+        font-size: 11px;
+        //
+        clear: left;
+        .flex-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          .inline-list{
+            span{
+              padding: 0 2px;
+              border-bottom: 1px solid #ddd;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            .variable{
+              width: 135px;
+            }
+            .value{
+              width: 135px;
+            }
+            :nth-child(even) {
+              background-color: #f2f2f2;
+            }
+          }
+        }
+        
+        .list-title{
+          padding: 0 2px;
+          direction: ltr;
+          font-weight: bold;
+          text-align: left;
+          overflow: hidden;
+        }
+
+        .items-table{
+          border-collapse: collapse;
+          width: 96%;
+          margin: 2px 0;
+
+          td,th{
+            border-bottom: 1px solid #ddd;
+            font-size: 10px;
+          }
+
+          td{
+            //padding-right: 20px;
+            padding-right: 5px;
+          }
+
+          tr{
+
+            &:nth-child(even){
+              background-color: #f2f2f2;
+            }
+
+          }
+
+        }
+
+        .table-form{
+          .td-item{
+            float: left;
+            padding: 0 5px;
+            display: inline-block;
+            width: 24%;
+
+            .th{
+              font-weight: bold;
+              float: left;
+            }
+            .td{
+              padding: 0px 1px;
+              float: right;
+            }
+
+            &:nth-child(even) {background: rgba(0,0,0,0.1)}
+          }
+
+
+        }
+
+      }
+
+      &.two{
+
+      }
+
+      .li-div{
+        .flex-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          .inline-list{
+            span{
+              padding: 0 2px;
+              border-bottom: 1px solid #ddd;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            .variable{
+              width: 135px;
+            }
+            .value{
+              width: 135px;
+            }
+            :nth-child(even) {
+              background-color: #f2f2f2;
+            }
+          }
+        }
+
+        .items-table{
+          border-collapse: collapse;
+          width: 96%;
+          margin: 2px 0;
+
+          td,th{
+            border-bottom: 1px solid #ddd;
+            font-size: 10px;
+          }
+
+          td{
+            //padding-right: 20px;
+            padding-right: 5px;
+          }
+
+          tr{
+
+            &:nth-child(even){
+              background-color: #f2f2f2;
+            }
+
+          }
+
+        }
+
+        .table-form{
+          .td-item{
+            float: left;
+            padding: 0 5px;
+            display: inline-block;
+            width: 24%;
+
+            .th{
+              font-weight: bold;
+              float: left;
+            }
+            .td{
+              padding: 0px 1px;
+              float: right;
+            }
+
+            &:nth-child(even) {background: rgba(0,0,0,0.1)}
+          }
+
+
+        }
+      }
+
+    }
+
+    .consent{
+      display: inline-block;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      direction: rtl;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .consent-checkbox{
+      // float: right;
+      display: inline-block;
+      position: absolute;
+      bottom: 7px;
+      right: 222px;
+
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Comment Section
+  --------------------------------------------------------------*/
+
+  .comment{
+
+    // border-bottom: 1px solid #333;
+    //height: 162px;
+    height: auto;
+
+    .comment-title{
+      float: right;
+      display: block;
+      font-weight: bold;
+      text-align: right;
+      direction: rtl;
+      padding: 2px;
+    }
+
+    .comment-text{
+      direction: rtl;
+      clear: right;
+      padding: 5px;
+    }
+
+    .comment-table{
+      clear: right;
+      direction: rtl;
+      width: 98%;
+      border: 2px solid #ddd;
+      margin: 0 5px;
+      border-collapse: collapse;
+
+      .big-row{
+        height: 50px;
+      }
+
+      &.comment-table-head{
+        border: 2px solid #dddddd;
+        margin-bottom:0;
+        padding-bottom:0;
+
+        td{
+          border: 2px solid #dddddd;
+          padding: 0 2px;
+
+          .table-list{
+            display: inline-block;
+            float: right;
+            text-align: right;
+            padding: 5px;
+            direction: rtl;
+            font-size: 11px;
+            width: 100%;
+
+            &.blood{
+              padding-right: 15px;
+            }
+
+          }
+
+          .table-list-checkbox{
+            float: right;
+            display: inline-block;
+            position: relative;
+            top: 2px;
+          }
+
+        }
+
+      }
+
+      &.comment-table-body{
+        border: 2px solid #dddddd;
+        border-top:0;
+        margin-top:0;
+        padding-top:0;
+        margin-bottom:0;
+        padding-bottom:0;
+
+        td{
+          // border: 2px solid #dddddd;
+          border-top:0;
+          padding: 0 2px;
+
+          .table-list{
+            display: inline-block;
+            float: right;
+            text-align: right;
+            padding: 5px;
+            direction: rtl;
+            font-size: 11px;
+
+            &.experiments{
+              padding-right: 10px;
+            }
+
+            &.consult{
+              padding-right: 10px;
+            }
+
+          }
+
+        }
+
+      }
+
+      &.comment-table-footer{
+        border: 2px solid #dddddd;
+        border-top:0;
+        margin-top:0;
+        padding-top:0;
+
+        td{
+          border: 2px solid #dddddd;
+          border-top:0;
+          padding: 0 2px;
+
+          .table-list{
+            display: inline-block;
+            float: right;
+            text-align: right;
+            padding: 5px;
+            direction: rtl;
+            font-size: 11px;
+
+            &.drugs{
+              padding-right: 10px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Confirm section
+  --------------------------------------------------------------*/
+  .confirm {
+    // border-bottom: 1px solid #333;
+    height: 20px;
+
+    >*{
+      // border: 1px solid;
+      border-top: none;
+    }
+
+    .dr-name{
+      width: 400px;
+      float: right;
+      height: 20px;
+    }
+
+    .date{
+      width: 100px;
+      float: right;
+      height: 20px;
+    }
+
+    &.fa{
+      .field-title,
+      .field-text{
+        padding: 0 2px;
+        direction: rtl;
+        float: right;
+        text-align: right;
+        overflow: hidden;
+      }
+
+      .field-title{
+        font-weight: bold;
+      }
+
+    }
+
+    &.en{
+      .field-title,
+      .field-text{
+        padding: 15px;
+        direction: ltr;
+        float: left;
+        text-align: left;
+        overflow: hidden;
+      }
+
+      .field-title{
+        font-weight: bold;
+      }
+
+    }
+
+
+  }
+
+}
+

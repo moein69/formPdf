@@ -1,0 +1,637 @@
+/*--------------------------------------------------------------
+# Reset Codes
+--------------------------------------------------------------*/
+/* line 8, ../sass/form.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: IranSans !important;
+  font-size: 12px;
+}
+/* line 15, ../sass/form.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 20, ../sass/form.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 23, ../sass/form.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 26, ../sass/form.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 27, ../sass/form.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+/* line 30, ../sass/form.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 5px auto;
+  font-weight: bold;
+}
+/* line 31, ../sass/form.scss */
+body h1 {
+  font-size: 20px;
+}
+/* line 32, ../sass/form.scss */
+body h2 {
+  font-size: 18px;
+}
+/* line 33, ../sass/form.scss */
+body h3 {
+  font-size: 16px;
+}
+/* line 34, ../sass/form.scss */
+body h4 {
+  font-size: 14px;
+}
+/* line 35, ../sass/form.scss */
+body h5 {
+  font-size: 12px;
+}
+/* line 36, ../sass/form.scss */
+body h6 {
+  font-size: 11px;
+}
+
+/*--------------------------------------------------------------
+# Size of the page
+--------------------------------------------------------------*/
+/* line 42, ../sass/form.scss */
+.container {
+  width: 900px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 2px solid #333333;
+  /*--------------------------------------------------------------
+  # Header Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Demografic section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Detail Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Subject Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Form Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Comment Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Confirm section
+  --------------------------------------------------------------*/
+}
+/* line 56, ../sass/form.scss */
+.container .header {
+  border-bottom: 2px solid #333;
+  height: 95px;
+}
+/* line 60, ../sass/form.scss */
+.container .header .header-right {
+  width: 135px;
+  height: 95px;
+  float: right;
+}
+/* line 66, ../sass/form.scss */
+.container .header .header-right img {
+  height: 80px;
+  width: 120px;
+  text-align: center;
+  margin: 5px;
+}
+/* line 74, ../sass/form.scss */
+.container .header .header-center {
+  width: 650px;
+  height: 95px;
+  float: right;
+  text-align: center;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
+}
+/* line 84, ../sass/form.scss */
+.container .header .header-left {
+  width: 98px;
+  height: 95px;
+  float: right;
+}
+/* line 90, ../sass/form.scss */
+.container .header .header-left img {
+  height: 80px;
+  margin-top: 5px;
+  text-align: center;
+}
+/* line 104, ../sass/form.scss */
+.container .demografic {
+  border-bottom: 1px solid #333;
+  height: 40px;
+}
+/* line 108, ../sass/form.scss */
+.container .demografic > * {
+  border: 1px solid;
+  border-top: none;
+}
+/* line 113, ../sass/form.scss */
+.container .demografic > div {
+  height: 40px;
+}
+/* line 117, ../sass/form.scss */
+.container .demografic .name {
+  width: 200px;
+  float: right;
+}
+/* line 122, ../sass/form.scss */
+.container .demografic .family-name {
+  width: 200px;
+  float: right;
+}
+/* line 127, ../sass/form.scss */
+.container .demografic .father-name {
+  width: 200px;
+  float: right;
+}
+/* line 132, ../sass/form.scss */
+.container .demografic .age {
+  width: 150px;
+  float: right;
+}
+/* line 137, ../sass/form.scss */
+.container .demografic .ward {
+  width: 146px;
+  float: right;
+}
+/* line 142, ../sass/form.scss */
+.container .demografic .field-title {
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 147, ../sass/form.scss */
+.container .demografic .field-title.fa {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 155, ../sass/form.scss */
+.container .demografic .field-title.en {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 165, ../sass/form.scss */
+.container .demografic .field-text {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* line 174, ../sass/form.scss */
+.container .demografic.fa .field-title,
+.container .demografic.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 183, ../sass/form.scss */
+.container .demografic.fa .field-title {
+  font-weight: bold;
+}
+/* line 190, ../sass/form.scss */
+.container .demografic.en .field-title,
+.container .demografic.en .field-text {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 199, ../sass/form.scss */
+.container .demografic.en .field-title {
+  font-weight: bold;
+}
+/* line 214, ../sass/form.scss */
+.container .detail {
+  border-bottom: 1px solid #333;
+  height: 38px;
+}
+/* line 218, ../sass/form.scss */
+.container .detail > * {
+  border: 1px solid;
+  border-top: none;
+}
+/* line 223, ../sass/form.scss */
+.container .detail .unit-no {
+  width: 300px;
+  float: right;
+}
+/* line 228, ../sass/form.scss */
+.container .detail .date-of-req {
+  width: 300px;
+  float: right;
+}
+/* line 233, ../sass/form.scss */
+.container .detail .time-of-req {
+  width: 296px;
+  float: right;
+}
+/* line 239, ../sass/form.scss */
+.container .detail .field-title {
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 244, ../sass/form.scss */
+.container .detail .field-title.fa {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 252, ../sass/form.scss */
+.container .detail .field-title.en {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 262, ../sass/form.scss */
+.container .detail .field-text {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* line 270, ../sass/form.scss */
+.container .detail.fa .field-title,
+.container .detail.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 279, ../sass/form.scss */
+.container .detail.fa .field-title {
+  font-weight: bold;
+}
+/* line 285, ../sass/form.scss */
+.container .detail.en .field-title,
+.container .detail.en .field-text {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 294, ../sass/form.scss */
+.container .detail.en .field-title {
+  font-weight: bold;
+}
+/* line 306, ../sass/form.scss */
+.container .subject {
+  border-bottom: 1px solid #333;
+  height: 21px;
+}
+/* line 310, ../sass/form.scss */
+.container .subject .subject-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+/* line 314, ../sass/form.scss */
+.container .subject .subject-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+/* line 320, ../sass/form.scss */
+.container .subject .subject-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+}
+/* line 328, ../sass/form.scss */
+.container .subject-text-area {
+  border-bottom: 1px solid #333;
+  height: 80px;
+  position: relative;
+}
+/* line 333, ../sass/form.scss */
+.container .subject-text-area p {
+  direction: rtl;
+  padding: 5px;
+}
+/* line 338, ../sass/form.scss */
+.container .subject-text-area .signature {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+/* line 346, ../sass/form.scss */
+.container .subject-text-area-two {
+  border-bottom: 1px solid #333;
+  height: 60px;
+  position: relative;
+}
+/* line 351, ../sass/form.scss */
+.container .subject-text-area-two p {
+  direction: rtl;
+  padding: 0 5px;
+}
+/* line 355, ../sass/form.scss */
+.container .subject-text-area-two p .box-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+/* line 370, ../sass/form.scss */
+.container .form-subject {
+  border-bottom: 1px solid #333;
+  height: 18px;
+}
+/* line 374, ../sass/form.scss */
+.container .form-subject .form-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+/* line 378, ../sass/form.scss */
+.container .form-subject .form-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+/* line 384, ../sass/form.scss */
+.container .form-subject .form-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+}
+/* line 393, ../sass/form.scss */
+.container .form {
+  border-bottom: 1px solid #333;
+  height: auto;
+  position: relative;
+}
+/* line 398, ../sass/form.scss */
+.container .form .items-list {
+  list-style-position: unset;
+  margin: 5px 0;
+}
+/* line 402, ../sass/form.scss */
+.container .form .items-list li {
+  padding: 1px 0;
+  font-size: 11px;
+  clear: left;
+}
+/* line 408, ../sass/form.scss */
+.container .form .items-list li .list-title {
+  padding: 0 2px;
+  direction: ltr;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 416, ../sass/form.scss */
+.container .form .items-list li .items-table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 2px 0;
+}
+/* line 421, ../sass/form.scss */
+.container .form .items-list li .items-table td, .container .form .items-list li .items-table th {
+  border-bottom: 1px solid #ddd;
+  font-size: 10px;
+}
+/* line 426, ../sass/form.scss */
+.container .form .items-list li .items-table td {
+  padding-right: 5px;
+}
+/* line 433, ../sass/form.scss */
+.container .form .items-list li .items-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* line 442, ../sass/form.scss */
+.container .form .items-list li .table-form .td-item {
+  float: left;
+  padding: 0 5px;
+  display: inline-block;
+  width: 24%;
+}
+/* line 448, ../sass/form.scss */
+.container .form .items-list li .table-form .td-item .th {
+  font-weight: bold;
+  float: left;
+}
+/* line 452, ../sass/form.scss */
+.container .form .items-list li .table-form .td-item .td {
+  padding: 0px 1px;
+  float: right;
+}
+/* line 457, ../sass/form.scss */
+.container .form .items-list li .table-form .td-item:nth-child(even) {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 471, ../sass/form.scss */
+.container .form .consent {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* line 482, ../sass/form.scss */
+.container .form .consent-checkbox {
+  float: right;
+  display: inline-block;
+  position: absolute;
+  bottom: 9px;
+  right: 215px;
+}
+/* line 499, ../sass/form.scss */
+.container .comment {
+  border-bottom: 1px solid #333;
+  height: auto;
+}
+/* line 505, ../sass/form.scss */
+.container .comment .comment-title {
+  float: right;
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  direction: rtl;
+  padding: 2px;
+}
+/* line 514, ../sass/form.scss */
+.container .comment .comment-text {
+  direction: rtl;
+  clear: right;
+  padding: 5px;
+}
+/* line 520, ../sass/form.scss */
+.container .comment .comment-table {
+  clear: right;
+  direction: rtl;
+  width: 98%;
+  border: 2px solid #ddd;
+  margin: 0 5px;
+  border-collapse: collapse;
+}
+/* line 528, ../sass/form.scss */
+.container .comment .comment-table .big-row {
+  height: 50px;
+}
+/* line 532, ../sass/form.scss */
+.container .comment .comment-table.comment-table-head {
+  border: 2px solid #dddddd;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 537, ../sass/form.scss */
+.container .comment .comment-table.comment-table-head td {
+  border: 2px solid #dddddd;
+  padding: 0 2px;
+}
+/* line 541, ../sass/form.scss */
+.container .comment .comment-table.comment-table-head td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+}
+/* line 549, ../sass/form.scss */
+.container .comment .comment-table.comment-table-head td .table-list.blood {
+  padding-right: 15px;
+}
+/* line 555, ../sass/form.scss */
+.container .comment .comment-table.comment-table-head td .table-list-checkbox {
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+/* line 566, ../sass/form.scss */
+.container .comment .comment-table.comment-table-body {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 574, ../sass/form.scss */
+.container .comment .comment-table.comment-table-body td {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  padding: 0 2px;
+}
+/* line 579, ../sass/form.scss */
+.container .comment .comment-table.comment-table-body td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+}
+/* line 587, ../sass/form.scss */
+.container .comment .comment-table.comment-table-body td .table-list.experiments {
+  padding-right: 10px;
+}
+/* line 591, ../sass/form.scss */
+.container .comment .comment-table.comment-table-body td .table-list.consult {
+  padding-right: 10px;
+}
+/* line 601, ../sass/form.scss */
+.container .comment .comment-table.comment-table-footer {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 607, ../sass/form.scss */
+.container .comment .comment-table.comment-table-footer td {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  padding: 0 2px;
+}
+/* line 612, ../sass/form.scss */
+.container .comment .comment-table.comment-table-footer td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+}
+/* line 620, ../sass/form.scss */
+.container .comment .comment-table.comment-table-footer td .table-list.drugs {
+  padding-right: 10px;
+}
+/* line 639, ../sass/form.scss */
+.container .confirm {
+  border-bottom: 1px solid #333;
+  height: 20px;
+}
+/* line 643, ../sass/form.scss */
+.container .confirm > * {
+  border: 1px solid;
+  border-top: none;
+}
+/* line 648, ../sass/form.scss */
+.container .confirm .dr-name {
+  width: 400px;
+  float: right;
+  height: 20px;
+}
+/* line 654, ../sass/form.scss */
+.container .confirm .date {
+  width: 100px;
+  float: right;
+  height: 20px;
+}
+/* line 661, ../sass/form.scss */
+.container .confirm.fa .field-title,
+.container .confirm.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 670, ../sass/form.scss */
+.container .confirm.fa .field-title {
+  font-weight: bold;
+}
+/* line 677, ../sass/form.scss */
+.container .confirm.en .field-title,
+.container .confirm.en .field-text {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 686, ../sass/form.scss */
+.container .confirm.en .field-title {
+  font-weight: bold;
+}

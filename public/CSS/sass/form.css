@@ -1,0 +1,715 @@
+/*--------------------------------------------------------------
+# Reset Codes
+--------------------------------------------------------------*/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Noto Sans Arabic', serif !important;
+  font-size: 12px;
+}
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+body b, body strong {
+  font-weight: bold;
+}
+body a, body a:hover {
+  text-decoration: none;
+}
+body ol, body ul {
+  list-style-position: inside;
+}
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 5px auto;
+  font-weight: bold;
+}
+body h1 {
+  font-size: 20px;
+}
+body h2 {
+  font-size: 18px;
+}
+body h3 {
+  font-size: 16px;
+}
+body h4 {
+  font-size: 14px;
+}
+body h5 {
+  font-size: 12px;
+}
+body h6 {
+  font-size: 13px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Size of the page
+--------------------------------------------------------------*/
+.container {
+  width: 900px;
+  height: 1300px;
+  border-radius: 5px;
+  border: 2px solid #333333;
+  /*--------------------------------------------------------------
+  # Header Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Demografic section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Detail Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Subject Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Form Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Comment Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Confirm section
+  --------------------------------------------------------------*/
+}
+.container .header {
+  border-bottom: 2px solid #333;
+  height: 95px;
+}
+.container .header .header-right {
+  width: 135px;
+  height: 95px;
+  float: right;
+}
+.container .header .header-right img {
+  height: 80px;
+  width: 120px;
+  text-align: center;
+  margin: 5px;
+}
+.container .header .header-center {
+  width: 640px;
+  height: 95px;
+  float: right;
+  text-align: center;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
+}
+.container .header .header-left {
+  width: 120px;
+  height: 95px;
+  float: right;
+}
+.container .header .header-left img {
+  height: 80px;
+  margin-top: 5px;
+  text-align: center;
+}
+.container .demografic {
+  border-bottom: 1px solid #333;
+  height: 40px;
+}
+.container .demografic > * {
+  border: 1px solid;
+  border-top: none;
+}
+.container .demografic > div {
+  height: 40px;
+}
+.container .demografic .name {
+  width: 200px;
+  float: right;
+}
+.container .demografic .family-name {
+  width: 195px;
+  float: right;
+}
+.container .demografic .father-name {
+  width: 200px;
+  float: right;
+}
+.container .demografic .age {
+  width: 150px;
+  float: right;
+}
+.container .demografic .sex {
+  width: 147px;
+  float: right;
+  border-left: none;
+}
+.container .demografic .field-title {
+  font-weight: bold;
+  font-size: 11px;
+}
+.container .demografic .field-title.fa {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+.container .demografic .field-title.en {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.container .demografic .field-text {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.container .demografic.fa .field-title,
+.container .demografic.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+.container .demografic.fa .field-title {
+  font-weight: bold;
+}
+.container .demografic.en .field-title,
+.container .demografic.en .field-text {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.container .demografic.en .field-title {
+  font-weight: bold;
+}
+.container .detail {
+  border-bottom: 1px solid #333;
+  height: 38px;
+}
+.container .detail > * {
+  border: 1px solid;
+  border-top: none;
+}
+.container .detail .physician {
+  width: 200px;
+  float: right;
+}
+.container .detail .unit-no {
+  width: 195px;
+  float: right;
+}
+.container .detail .date-of-req {
+  width: 200px;
+  float: right;
+}
+.container .detail .time-of-req {
+  width: 150px;
+  float: right;
+}
+.container .detail .ward {
+  width: 147px;
+  float: right;
+  border-left: none;
+}
+.container .detail .field-title {
+  font-weight: bold;
+  font-size: 11px;
+}
+.container .detail .field-title.fa {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+.container .detail .field-title.en {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.container .detail .field-text {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.container .detail.fa .field-title,
+.container .detail.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+.container .detail.fa .field-title {
+  font-weight: bold;
+}
+.container .detail.en .field-title,
+.container .detail.en .field-text {
+  padding: 0 2px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.container .detail.en .field-title {
+  font-weight: bold;
+}
+.container .subject {
+  height: 21px;
+}
+.container .subject .subject-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .subject .subject-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+.container .subject .subject-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+}
+.container .subject-text-area {
+  border-bottom: 1px solid #333;
+  height: 95px;
+  position: relative;
+}
+.container .subject-text-area p {
+  direction: rtl;
+  padding: 5px;
+}
+.container .subject-text-area .signature {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.container .subject-text-area-two {
+  border-bottom: 1px solid #333;
+  height: 60px;
+  position: relative;
+}
+.container .subject-text-area-two p {
+  direction: rtl;
+  padding: 0 5px;
+}
+.container .subject-text-area-two p .box-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .form-subject {
+  height: 18px;
+}
+.container .form-subject.lab {
+  border-top: 1px solid #333;
+  margin: 0 auto;
+}
+.container .form-subject.lab .form-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .form-subject.lab .form-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 0px;
+}
+.container .form-subject.lab .form-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 0px;
+}
+.container .form-subject.lab .form-title.en .value {
+  position: relative;
+}
+.container .form-subject.paracilinic {
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  margin: 0 auto;
+}
+.container .form-subject.paracilinic .form-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .form-subject.paracilinic .form-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 15px;
+}
+.container .form-subject.paracilinic .form-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 0px;
+}
+.container .form-subject.paracilinic .form-title.en .value {
+  position: relative;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: larger;
+}
+.container .form-subject.drug .form-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .form-subject.drug .form-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 15px;
+}
+.container .form-subject.drug .form-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+}
+.container .form-subject.drug .form-title.en .value {
+  position: relative;
+}
+.container .form-subject .form-title {
+  padding: 0 2px;
+  font-weight: bold;
+}
+.container .form-subject .form-title.fa {
+  direction: rtl;
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 15px;
+}
+.container .form-subject .form-title.en {
+  direction: ltr;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 15px;
+}
+.container .form-subject .form-title.en .value {
+  position: relative;
+}
+.container .form {
+  border-bottom: 1px solid #333;
+  height: auto;
+  position: relative;
+}
+.container .form .items-list {
+  list-style-position: unset;
+  margin: 5px 0;
+}
+.container .form .items-list li {
+  padding: 1px 0;
+  font-size: 11px;
+  clear: left;
+}
+.container .form .items-list li .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.container .form .items-list li .flex-container .inline-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border-bottom: 1px solid #ddd;
+  height: 16px;
+}
+.container .form .items-list li .flex-container .inline-list span {
+  padding: 0 2px;
+  border-bottom: 1px solid #ddd;
+}
+.container .form .items-list li .flex-container .inline-list .variable {
+  width: 100px;
+  height: 14px;
+}
+.container .form .items-list li .flex-container .inline-list .value {
+  width: 175px;
+  height: 14px;
+  direction: rtl;
+  font-style: italic;
+  font-size: larger;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.container .form .items-list li .flex-container .inline-list :nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .form .items-list li .list-title {
+  padding: 0 2px;
+  direction: ltr;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+}
+.container .form .items-list li .items-table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 2px 0;
+}
+.container .form .items-list li .items-table td, .container .form .items-list li .items-table th {
+  border-bottom: 1px solid #ddd;
+  font-size: 10px;
+}
+.container .form .items-list li .items-table td {
+  padding-right: 5px;
+}
+.container .form .items-list li .items-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .form .items-list li .table-form .td-item {
+  float: left;
+  padding: 0 5px;
+  display: inline-block;
+  width: 24%;
+}
+.container .form .items-list li .table-form .td-item .th {
+  font-weight: bold;
+  float: left;
+}
+.container .form .items-list li .table-form .td-item .td {
+  padding: 0px 1px;
+  float: right;
+}
+.container .form .items-list li .table-form .td-item:nth-child(even) {
+  background: rgba(0, 0, 0, 0.1);
+}
+.container .form .items-list .li-div .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.container .form .items-list .li-div .flex-container .inline-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border-bottom: 1px solid #ddd;
+  height: 16px;
+}
+.container .form .items-list .li-div .flex-container .inline-list span {
+  padding: 0 2px;
+  border-bottom: 1px solid #ddd;
+}
+.container .form .items-list .li-div .flex-container .inline-list .variable {
+  width: 135px;
+  height: 14px;
+}
+.container .form .items-list .li-div .flex-container .inline-list .value {
+  width: 135px;
+  height: 14px;
+  font-style: italic;
+  font-size: larger;
+}
+.container .form .items-list .li-div .flex-container .inline-list :nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .form .items-list .li-div .items-table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 2px 0;
+}
+.container .form .items-list .li-div .items-table td, .container .form .items-list .li-div .items-table th {
+  border-bottom: 1px solid #ddd;
+  font-size: 10px;
+}
+.container .form .items-list .li-div .items-table td {
+  padding-right: 5px;
+}
+.container .form .items-list .li-div .items-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .form .items-list .li-div .table-form .td-item {
+  float: left;
+  padding: 0 5px;
+  display: inline-block;
+  width: 24%;
+}
+.container .form .items-list .li-div .table-form .td-item .th {
+  font-weight: bold;
+  float: left;
+}
+.container .form .items-list .li-div .table-form .td-item .td {
+  padding: 0px 1px;
+  float: right;
+}
+.container .form .items-list .li-div .table-form .td-item:nth-child(even) {
+  background: rgba(0, 0, 0, 0.1);
+}
+.container .form .consent {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.container .form .consent-checkbox {
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  right: 222px;
+}
+.container .comment {
+  height: auto;
+}
+.container .comment .comment-title {
+  float: right;
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  direction: rtl;
+  padding: 2px;
+}
+.container .comment .comment-text {
+  direction: rtl;
+  clear: right;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 13px;
+}
+.container .comment .comment-table {
+  clear: right;
+  direction: rtl;
+  width: 98%;
+  border: 2px solid #ddd;
+  margin: 0 5px;
+  border-collapse: collapse;
+}
+.container .comment .comment-table .big-row {
+  height: 50px;
+}
+.container .comment .comment-table.comment-table-head {
+  border: 2px solid #dddddd;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.container .comment .comment-table.comment-table-head td {
+  border: 2px solid #dddddd;
+  padding: 0 2px;
+  font-size: 13px;
+}
+.container .comment .comment-table.comment-table-head td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+  width: 100%;
+}
+.container .comment .comment-table.comment-table-head td .table-list.blood {
+  padding-right: 15px;
+}
+.container .comment .comment-table.comment-table-head td .table-list-checkbox {
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+.container .comment .comment-table.comment-table-body {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container .comment .comment-table.comment-table-body td {
+  border-top: 0;
+  padding: 0 2px;
+}
+.container .comment .comment-table.comment-table-body td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+}
+.container .comment .comment-table.comment-table-body td .table-list.experiments {
+  padding-right: 10px;
+}
+.container .comment .comment-table.comment-table-body td .table-list.consult {
+  padding-right: 10px;
+}
+.container .comment .comment-table.comment-table-footer {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+.container .comment .comment-table.comment-table-footer td {
+  border: 2px solid #dddddd;
+  border-top: 0;
+  padding: 0 2px;
+}
+.container .comment .comment-table.comment-table-footer td .table-list {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  direction: rtl;
+  font-size: 11px;
+}
+.container .comment .comment-table.comment-table-footer td .table-list.drugs {
+  padding-right: 10px;
+}
+.container .confirm {
+  height: 20px;
+}
+.container .confirm > * {
+  border-top: none;
+}
+.container .confirm .dr-name {
+  width: 400px;
+  float: right;
+  height: 20px;
+}
+.container .confirm .date {
+  width: 100px;
+  float: right;
+  height: 20px;
+}
+.container .confirm.fa .field-title,
+.container .confirm.fa .field-text {
+  padding: 0 2px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+.container .confirm.fa .field-title {
+  font-weight: bold;
+}
+.container .confirm.en .field-title,
+.container .confirm.en .field-text {
+  padding: 15px;
+  direction: ltr;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.container .confirm.en .field-title {
+  font-weight: bold;
+}/*# sourceMappingURL=form.css.map */

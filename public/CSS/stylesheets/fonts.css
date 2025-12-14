@@ -1,0 +1,44 @@
+/*IranSans*/
+@font-face {
+    font-family: 'IranSans';
+    src: url('https://nikan.runflare.run/CSS/fonts/iransans/IRANSansWeb.eot');
+    src: url('https://nikan.runflare.run/CSS/fonts/iransans/IRANSansWeb.eot?#iefix') format('embedded-opentype')
+    , url('https://nikan.runflare.run/CSS/fonts/iransans/IRANSansWeb.woff2') format('woff2')
+    , url('https://nikan.runflare.run/CSS/fonts/iransans/IRANSansWeb.woff') format('woff')
+    , url('https://nikan.runflare.run/CSS/fonts/iransans/IRANSansWeb.ttf') format('truetype')
+    /*, url('../fonts/iransans/IRANSansWeb.svg#AIranianSans') format('svg')*/
+;
+}
+/*IranSansBold*/
+@font-face {
+    font-family: 'IranSansBold';
+    src: url('../fonts/iransans/bold/IRANSansWeb_Bold.eot');
+    src: url('../fonts/iransans/bold/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype')
+    , url('../fonts/iransans/bold/IRANSansWeb_Bold.woff2') format('woff2')
+    , url('../fonts/iransans/bold/IRANSansWeb_Bold.woff') format('woff')
+    , url('../fonts/iransans/bold/IRANSansWeb_Bold.ttf') format('truetype')
+    /*, url('../fonts/iransans/IRANSansWeb.svg#AIranianSans') format('svg')*/
+;
+}
+/*IranSansMedium*/
+@font-face {
+    font-family: 'IranSansMedium';
+    src: url('../fonts/iransans/medium/IRANSansWeb_Medium.eot');
+    src: url('../fonts/iransans/medium/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype')
+    , url('../fonts/iransans/medium/IRANSansWeb_Medium.woff2') format('woff2')
+    , url('../fonts/iransans/medium/IRANSansWeb_Medium.woff') format('woff')
+    , url('../fonts/iransans/medium/IRANSansWeb_Medium.ttf') format('truetype')
+    /*, url('../fonts/medium/IRANSansWeb_Medium.svg#AIranianSans') format('svg')*/
+;
+}
+/*IranSansLight*/
+@font-face {
+    font-family: 'IranSansLight';
+    src: url('../fonts/iransans/light/IRANSansWeb_Light.eot');
+    src: url('../fonts/iransans/light/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype')
+    , url('../fonts/iransans/light/IRANSansWeb_Light.woff2') format('woff2')
+    , url('../fonts/iransans/light/IRANSansWeb_Light.woff') format('woff')
+    , url('../fonts/iransans/light/IRANSansWeb_Light.ttf') format('truetype')
+    /*, url('../fonts/iransans/IRANSansWeb.svg#AIranianSans') format('svg')*/
+;
+}

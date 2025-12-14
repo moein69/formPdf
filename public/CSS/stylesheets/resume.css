@@ -1,0 +1,125 @@
+/* line 3, ../sass/resume.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: Calibri,"Times New Roman",Tahoma;
+  font-size: 14px;
+}
+/* line 12, ../sass/resume.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 17, ../sass/resume.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 20, ../sass/resume.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 23, ../sass/resume.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 24, ../sass/resume.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+
+/* line 36, ../sass/resume.scss */
+.container {
+  width: 780px;
+  height: auto;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 25px;
+}
+/* line 49, ../sass/resume.scss */
+.container .personal-info {
+  padding: 10px 2%;
+}
+/* line 52, ../sass/resume.scss */
+.container .personal-info .logo {
+  position: absolute;
+  height: 85px;
+  top: 15px;
+  right: 15px;
+}
+/* line 59, ../sass/resume.scss */
+.container .personal-info .name {
+  font-size: 25px;
+  color: #0852a4;
+}
+/* line 64, ../sass/resume.scss */
+.container .personal-info table, .container .personal-info th, .container .personal-info td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+/* line 69, ../sass/resume.scss */
+.container .personal-info .info-table {
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: white;
+}
+/* line 77, ../sass/resume.scss */
+.container .personal-info .info-table tbody tr th {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* line 88, ../sass/resume.scss */
+.container .description-info {
+  padding: 0 15px;
+}
+/* line 91, ../sass/resume.scss */
+.container .description-info .description {
+  border-radius: 8px;
+  border: 1px solid gray;
+  background: #ffffff;
+  padding: 0 15px;
+}
+/* line 97, ../sass/resume.scss */
+.container .description-info .description .description-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* line 105, ../sass/resume.scss */
+.container .education-info {
+  padding: 0 15px;
+}
+/* line 108, ../sass/resume.scss */
+.container .education-info .education {
+  border-radius: 8px;
+  border: 1px solid gray;
+  background: #ffffff;
+  padding: 0 15px;
+}
+/* line 114, ../sass/resume.scss */
+.container .education-info .education .education-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* line 119, ../sass/resume.scss */
+.container .education-info .education table, .container .education-info .education th, .container .education-info .education td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+/* line 124, ../sass/resume.scss */
+.container .education-info .education .info-table {
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: white;
+}
+/* line 132, ../sass/resume.scss */
+.container .education-info .education .info-table tbody tr th {
+  font-weight: bold;
+  font-size: 16px;
+}

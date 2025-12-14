@@ -1,0 +1,145 @@
+@import "compass";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  //font-family: IranSans !important;
+  font-family: Calibri,"Times New Roman",Tahoma;
+
+  font-size: 14px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    line-height: 27.5px;
+  }
+  b,strong{
+    font-weight: bold;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+  ol,ul{list-style-position: inside}
+  ol,ul,dl,hr {
+    margin: 0;
+  }
+  //h1{font-size: 20px}
+  //h2{font-size: 18px}
+  //h3{font-size: 16px}
+  //h4{font-size: 15px}
+  //h5{font-size: 14px}
+  //h6{font-size: 13px}
+
+}
+
+.container {
+  width: 780px;
+  //height: 1100px;
+  height: auto;
+  background-color: #f3f3f3;
+  //background-color: #eeeeee;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom:25px;
+
+  .personal-info{
+    padding: 10px 2%;
+
+    .logo{
+      position: absolute;
+      height: 85px;
+      top: 15px;
+      right: 15px;
+    }
+
+    .name{
+      font-size: 25px;
+      color: #0852a4;
+    }
+
+    table, th, td{
+      border: 1px solid gray;
+      padding: 5px;
+    }
+
+    .info-table{
+      text-align: left;
+      border: 1px solid gray;
+      border-radius: 8px ;
+      background-color: white;
+      tbody{
+
+        tr{
+          th{
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .description-info{
+    padding: 0 15px;
+
+    .description{
+      border-radius: 8px;
+      border: 1px solid gray;
+      background: #ffffff;
+      padding: 0 15px;
+
+      .description-title{
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+
+  }
+
+  .education-info{
+    padding: 0 15px;
+
+    .education{
+      border-radius: 8px;
+      border: 1px solid gray;
+      background: #ffffff;
+      padding: 0 15px;
+
+      .education-title{
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      table, th, td{
+        border: 1px solid gray;
+        padding: 5px;
+      }
+
+      .info-table{
+        text-align: left;
+        border: 1px solid gray;
+        border-radius: 8px ;
+        background-color: white;
+        tbody{
+
+          tr{
+            th{
+              font-weight: bold;
+              font-size: 16px;
+            }
+          }
+
+        }
+      }
+    }
+
+  }
+
+}
+

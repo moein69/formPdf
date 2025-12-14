@@ -1,0 +1,159 @@
+@import "compass";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: IranSans !important;
+  font-size: 14px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    line-height: 27.5px;
+  }
+  b,strong{
+    font-weight: bold;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+  ol,ul{list-style-position: inside}
+  ol,ul,dl,hr {
+    margin: 0;
+  }
+  //h1{font-size: 20px}
+  //h2{font-size: 18px}
+  //h3{font-size: 16px}
+  //h4{font-size: 15px}
+  //h5{font-size: 14px}
+  //h6{font-size: 13px}
+
+}
+
+.container {
+  //width: 780px;
+  //height: 1100px;
+  height: auto;
+  background-color: #fff;
+  //background-color: #eeeeee;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom:25px;
+
+  section{
+    padding: 0 15px;
+  }
+
+  .list-vertical{
+
+    padding: 5px 0;
+
+    .list-vertical-item{
+      background-color: skyblue;
+      border-radius: 8px;
+      list-style-type: none;
+      padding: 5px 10px;
+      margin: 5px 0;
+
+      a{
+        color: #333;
+        font-weight: bold;
+      }
+    }
+  }
+
+  #portlet_eduteacherdisplay_WAR_edumanagerportlet{
+
+    form{
+      padding: 0 15px;
+    }
+
+    .content-description{
+      padding: 0 15px;
+
+      .cv-title{
+        color: #333333;
+        font-weight: bold;
+      }
+
+      ul{
+        padding: 0 20px;
+
+        li{
+
+          border-radius: 8px;
+          padding: 0 5px;
+
+          .dsc-headlines{
+            color: #333333;
+            line-height: 30px;
+          }
+
+          &:hover{
+            background-color: rgba(0,0,0,0.05);
+          }
+
+        }
+      }
+    }
+  }
+
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      transition-property: opacity;
+    }
+
+    .item,
+    .active.left,
+    .active.right {
+      opacity: 0;
+    }
+
+    .active,
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .carousel-control {
+    z-index: 2;
+  }
+}
+
+
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 500px;
+}
+
+.item:nth-child(1) {
+  background: #74C390;
+}
+
+.item:nth-child(2) {
+  background: #51BCE8;
+}
+
+.item:nth-child(3) {
+  background: #E46653;
+}

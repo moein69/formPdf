@@ -1,0 +1,117 @@
+/* line 3, ../sass/staff.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: IranSans !important;
+  font-size: 14px;
+}
+/* line 10, ../sass/staff.scss */
+body p {
+  padding: 0;
+  margin: 0;
+  line-height: 27.5px;
+}
+/* line 15, ../sass/staff.scss */
+body b, body strong {
+  font-weight: bold;
+}
+/* line 18, ../sass/staff.scss */
+body a, body a:hover {
+  text-decoration: none;
+}
+/* line 21, ../sass/staff.scss */
+body ol, body ul {
+  list-style-position: inside;
+}
+/* line 22, ../sass/staff.scss */
+body ol, body ul, body dl, body hr {
+  margin: 0;
+}
+
+/* line 34, ../sass/staff.scss */
+.part-title {
+  color: #fff;
+  background: #0d2b67;
+  display: block;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+}
+
+/* line 45, ../sass/staff.scss */
+.list-of-partners {
+  direction: rtl;
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding: 0;
+}
+/* line 53, ../sass/staff.scss */
+.list-of-partners .partner {
+  width: 100%;
+  height: 150px;
+  border: 1px #dddddd solid;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+/* line 61, ../sass/staff.scss */
+.list-of-partners .partner .partner-box {
+  width: 100%;
+  height: 100%;
+  border: 1px #0d2b67 solid;
+  border-radius: 7px;
+}
+/* line 68, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-pic {
+  height: 100%;
+  width: 15%;
+  float: right;
+  border: 1px #0d2b67 solid;
+  text-align: center;
+}
+/* line 75, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-pic img {
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+}
+/* line 83, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail {
+  height: 100%;
+  width: 85%;
+  float: right;
+  border: 1px #0d2b67 solid;
+}
+/* line 90, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail .detail-list {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+/* line 94, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail .detail-list li {
+  line-height: 25px;
+}
+/* line 98, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail .detail-list li .title {
+  font-weight: bold;
+  color: #0d2b67;
+}
+/* line 103, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail .detail-list li .full-name {
+  font-weight: bold;
+  color: #0d2b67;
+  font-size: 1.3em;
+}
+/* line 121, ../sass/staff.scss */
+.list-of-partners .partner .partner-box .partner-detail .detail-list li .project {
+  font-weight: bold;
+  color: #bf4844;
+}
+/* line 134, ../sass/staff.scss */
+.list-of-partners .partner.head {
+  height: 175px;
+}
