@@ -1,4 +1,5 @@
 "use strict";
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 // const http = require('http');
 // const querystring = require('querystring');
