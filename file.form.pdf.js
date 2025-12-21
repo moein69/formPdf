@@ -41,12 +41,14 @@ module.exports = {
 
 async function sendPdf(res, stringResult) {
 
-  const browser = await puppeteer.launch(
-    {
-      args: ['--no-sandbox']
-    }
-
-  );
+const browser = await puppeteer.launch({
+  executablePath: '/usr/bin/chromium',
+  headless: true,
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+  ],
+});
   const page = await browser.newPage()
 
   // 2. Create PDF from static HTML
